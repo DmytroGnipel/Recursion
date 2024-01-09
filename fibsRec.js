@@ -13,7 +13,6 @@ const firstElemFromEnd = fibRec(number - 1).at(-1)
 const secondElemFromEnd = fibRec(number - 1).at(-2)
 const sum = firstElemFromEnd + secondElemFromEnd
 return fibRec(number - 1).concat([sum])
-
 }
 
 console.log(fibRec(8))//[0, 1, 1, 2, 3, 5, 8, 13]
