@@ -9,10 +9,7 @@ const fibs = number => {
     if (number == 1) return [0]
     if (number == 2) return [0,1]
     const result = [0,1]    
-    let a = 0
-    let b = 1
-    let sum
-    let i = 3
+    let a = 0, b = 1, i = 3, sum
     while (i <= number) {
         sum = a + b
         result.push(sum)
